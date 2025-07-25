@@ -35,5 +35,21 @@ Designed for ease of use, it offers live previews and high-quality outputs — a
 
 ## 📁 Output Location
 
-All converted images are saved in the backend directory at:
+All converted images are saved in the backend directory at `static/results/`.
+You can access them directly via URL: `http://127.0.0.1:5000/static/results/<filename>`
+
+---
+
+## 💡 Notes
+
+- Ensure both **Flask server** and **React frontend** are running concurrently  
+- Do not include spaces in image filenames (use underscores)  
+- Always use grayscale MRI scans for better output quality
+
+---
+
+## 📫 Contact
+
+Developed by **Muhammad Sharjeel** with ❤️  
+Feel free to fork, raise issues, or contribute on [GitHub](https://github.com/msharjeel7/T1_T2-MRI-Conversion-Web-App)
 
