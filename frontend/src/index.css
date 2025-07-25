@@ -1,0 +1,20 @@
+/* 
+  Include Tailwind's base styles. 
+  These reset browser defaults and apply consistent styles.
+  It's similar to Normalize.css but tailored for Tailwind.
+*/
+@tailwind base;
+
+/* 
+  Include any component classes. 
+  These are reusable custom styles like buttons or cards.
+  You can define them using @apply or via plugins.
+*/
+@tailwind components;
+
+/* 
+  Include all utility classes. 
+  These are the core of Tailwind (e.g., p-4, bg-blue-500, text-center).
+  Used to build your UI directly in HTML.
+*/
+@tailwind utilities;
